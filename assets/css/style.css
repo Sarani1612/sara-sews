@@ -1,14 +1,7 @@
 body {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
 }
 
-header,
-section,
-footer {
-    margin: 0;
-    padding: 1px;
-}
 
 
 
@@ -17,7 +10,7 @@ footer {
 .navbar {
     position: absolute;
     width: 100%;
-    background-color: #6e2b8c8f;
+    background-color: #6e2b8c;
     z-index: 1;
 }
 
@@ -26,11 +19,18 @@ footer {
     padding-left: 50px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,1);
+.navbar .navbar-brand {
+    font-weight: 800;
 }
 
-/*----------------------------------------------------------- Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+
+/*----------------------------------------------------------- /Navbar */
+
+/*----------------------------------------------------------- Home */
 
 .home-content {
     background-image: url(../images/arts-and-crafts-bobbin-close-up-1266139.jpg);
@@ -42,26 +42,30 @@ footer {
     background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
-}
-
-.opacity {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
+    margin: 0;
+    padding: 1px;
+    color: #fff;
 }
 
 .heading {
-    margin-top: 75px;
+    margin-top: 100px;
     font-weight: 700;
+    font-size: 8vw;
 }
 
-/*----------------------------------------------------------- footer */
+.sub-heading {
+    padding-top: 25px;
+    font-size: 4vw;
+    font-weight: 500;
+    
+}
+
+/*----------------------------------------------------------- /Home */
+
+/*----------------------------------------------------------- Footer */
 
 footer {
-    background-color: #6e2b8c8f;
+    background-color: #6e2b8c;
     padding: 0 15px;
 }
 
@@ -82,3 +86,5 @@ footer {
     text-align: center;
     color: #fff;
 }
+
+/*----------------------------------------------------------- /Footer */
