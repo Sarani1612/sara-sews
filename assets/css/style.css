@@ -68,22 +68,28 @@ body {
 }
 
 .heading {
-    margin-top: 100px;
-    font-weight: 700;
+    margin-top: 150px;
     font-size: 8vw;
+    font-weight: 700;
 }
 
 .sub-heading {
     padding-top: 25px;
     font-size: 4vw;
     font-weight: 500;
+}
 
+.projects-heading {
+    padding-top: 25px;
+    font-size: 8vw;
+    font-weight: 700;
 }
 
 .projects-div {
     text-align: center;
     background-color: #d6c7e4;
 }
+
 
 /*----------------------------------------------------------- /Home */
 
@@ -132,3 +138,27 @@ footer {
 }
 
 /*----------------------------------------------------------- /Footer */
+
+@media (min-width: 768px) {
+    .frontpage-photos {
+        display: flex;
+    }
+
+    .frontpage-photos img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    
+    #photo1 {
+        flex: calc(3123/4684);
+    }
+    
+    #photo2 {
+        flex: calc(2832/4256);
+    }
+    
+    #photo3 {
+        flex: calc(2899/2829);
+    }
+}
