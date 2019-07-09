@@ -53,7 +53,7 @@ body {
 /*----------------------------------------------------------- Home */
 
 .home-welcome {
-    background-image: url(../images/arts-and-crafts-bobbin-close-up-1266139.jpg);
+    background-image: url(../photos/arts-and-crafts-bobbin-close-up-1266139.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -139,6 +139,8 @@ footer {
 
 /*----------------------------------------------------------- /Footer */
 
+/*----------------------------------------------------------- Media Queries */
+
 @media (min-width: 768px) {
     .frontpage-photos {
         display: flex;
@@ -162,3 +164,5 @@ footer {
         flex: calc(2899/2829);
     }
 }
+
+/*----------------------------------------------------------- /Media Queries */
