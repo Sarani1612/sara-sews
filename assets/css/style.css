@@ -81,13 +81,38 @@ body {
 
 .projects-heading {
     padding-top: 25px;
-    font-size: 8vw;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .projects-div {
     text-align: center;
     background-color: #d6c7e4;
+}
+
+.projects-text {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.button {
+    padding-bottom: 15px;
+}
+
+.btn-contact {
+    background-color: #6e2b8c;
+    border-color: #6e2b8c;
+}
+
+.btn-contact a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-contact a:hover {
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
 }
 
 .gallery-page {
@@ -155,18 +180,19 @@ footer {
         height: auto;
         vertical-align: middle;
     }
-    
+
     #photo1 {
         flex: calc(3123/4684);
     }
-    
+
     #photo2 {
-        flex: calc(2832/4256);
-    }
-    
-    #photo3 {
         flex: calc(2899/2829);
     }
+
+    #photo3 {
+        flex: calc(2832/4256);
+    }
+
 }
 
 /*----------------------------------------------------------- /Media Queries */
