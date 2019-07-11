@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f41741c87d.js"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100, 200, 300, 400,500, 600, 700, 800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Nimble Thimble|Custom-made clothing & costumes</title>
@@ -54,40 +54,40 @@
 
         <!-- Photos -->
         <div class="container-fluid">
-            <div class="row gallery-wrap">
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+            <div class="row gallery-wrap justify-content-center">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/blue-dress.jpg" alt="Blue dress">
                     <div class="gallery-note">Blue dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/costume.jpg" alt="Costume">
                     <div class="gallery-note">Costume</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/dark-blue-dress.jpg" alt="Dark blue dress">
                     <div class="gallery-note">Dark blue dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/dress-dots.jpg" alt="Dotted dress">
                     <div class="gallery-note">Dotted dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/floral-summer-dress.jpg" alt="Floral summer dress">
                     <div class="gallery-note">Floral summer dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/hoodie.jpg" alt="Hoodie">
                     <div class="gallery-note">Hoodie</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/sleeveless-suit.jpg" alt="Sleeveless suit">
                     <div class="gallery-note">Sleeveless suit</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/suit2.jpg" alt="Elegant suit">
                     <div class="gallery-note">Elegant suit</div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-3 gallery">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
                     <img src="assets/photos/casual-coat.jpg" alt="Brown duffel coat">
                     <div class="gallery-note">Brown duffel coat</div>
                 </div>
@@ -141,6 +141,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 800,
+            delay: 350,
+            once: false,
+            disable: 'mobile'
+        });
+    </script>
 </body>
 
 </html>

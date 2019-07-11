@@ -139,7 +139,7 @@ body {
 }
 
 .gallery {
-    margin: 5px;
+    margin: 10px;
     border: 2px solid #6e2b8c;
 }
 
@@ -152,6 +152,7 @@ body {
     padding: 15px;
     text-align: center;
     font-weight: bolder;
+    bottom: 0;
 }
 
 
