@@ -51,7 +51,7 @@ body {
 /*----------------------------------------------------------- Content */
 
 .home-welcome,
-.contact-body {
+.contact-about-body {
     background-image: url(../photos/arts-and-crafts-bobbin-close-up-1266139.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,8 +89,7 @@ body {
     background-color: #d6c7e4;
 }
 
-.projects-text,
-.contact-text {
+.body-text {
     margin-top: 1rem;
     font-size: 1.25rem;
     color: #6e2b8c;
@@ -131,7 +130,7 @@ body {
     background-color: #d6c7e4;
 }
 
-.gallery-heading, .contact-heading {
+.subpage-heading {
     margin-top: 75px;
     font-size: 3.5rem;
     font-weight: 700;
@@ -155,6 +154,17 @@ body {
     bottom: 0;
 }
 
+.about-divs {
+    margin: 0 10px;
+}
+
+.about-section img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+}
 
 /*----------------------------------------------------------- /Content */
 
