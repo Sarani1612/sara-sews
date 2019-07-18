@@ -93,6 +93,7 @@ body {
     margin-top: 1rem;
     font-size: 1.25rem;
     color: #6e2b8c;
+    font-weight: 500;
 }
 
 .button {
@@ -104,13 +105,13 @@ body {
     border-color: #6e2b8c;
 }
 
-.btn-contact a {
+.btn-contact {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     text-decoration: none;
 }
 
-.btn-contact a:hover {
+.btn-contact:hover {
     color: rgba(255, 255, 255, .75);
     text-decoration: none;
 }
