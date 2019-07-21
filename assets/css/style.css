@@ -6,7 +6,6 @@ body {
 /*----------------------------------------------------------- Navbar */
 
 .navbar {
-    position: absolute;
     width: 100%;
     background-color: #6e2b8c;
     z-index: 1;
