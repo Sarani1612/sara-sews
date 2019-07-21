@@ -114,14 +114,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        /*global AOS*/
         AOS.init({
             easing: 'ease-out-back',
             duration: 800,
-            delay: 350,
+            delay: 200,
             once: false,
-            disable: 'mobile'
+            disable: 'mobile',
+            mirror: true,
         });
+        window.addEventListener('load', AOS.refresh);
     </script>
 </body>
 

@@ -55,39 +55,39 @@
         <!-- Photos -->
         <div class="container-fluid">
             <div class="row gallery-wrap justify-content-center">
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/blue-dress.jpg" alt="Blue dress">
                     <div class="gallery-note">Blue dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/costume.jpg" alt="Costume">
                     <div class="gallery-note">Costume</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/dark-blue-dress.jpg" alt="Dark blue dress">
                     <div class="gallery-note">Dark blue dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/dress-dots.jpg" alt="Dotted dress">
                     <div class="gallery-note">Dotted dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/floral-summer-dress.jpg" alt="Floral summer dress">
                     <div class="gallery-note">Floral summer dress</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/hoodie.jpg" alt="Hoodie">
                     <div class="gallery-note">Hoodie</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/sleeveless-suit.jpg" alt="Sleeveless suit">
                     <div class="gallery-note">Sleeveless suit</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/suit2.jpg" alt="Elegant suit">
                     <div class="gallery-note">Elegant suit</div>
                 </div>
-                <div class="col-sm-6 col-md-4 gallery" data-aos="fade-up">
+                <div class="col-sm-6 col-md-4 gallery" data-aos="zoom-in">
                     <img src="assets/photos/casual-coat.jpg" alt="Brown duffel coat">
                     <div class="gallery-note">Brown duffel coat</div>
                 </div>
@@ -151,10 +151,12 @@
         AOS.init({
             easing: 'ease-out-back',
             duration: 800,
-            delay: 350,
+            delay: 200,
             once: false,
-            disable: 'mobile'
+            disable: 'mobile',
+            mirror: true,
         });
+        window.addEventListener('load', AOS.refresh);
     </script>
 </body>
 
