@@ -134,11 +134,16 @@ body {
     bottom: 0;
 }
 
+.about-divs {
+   margin: 0 0.5rem;
+}
+
 .about-section img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    margin-top: 1rem;
 }
 
 
