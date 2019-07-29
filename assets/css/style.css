@@ -150,13 +150,13 @@ p {
     margin-top: 1rem;
 }
 
-.contact-info {
-    padding: 3rem;
-    text-align: left;
+.contact-divs {
+    padding: 0 3rem;
+    margin: 0;
 }
 
-.contact-form {
-    padding: 3rem;
+.contact-info {
+    text-align: left;
 }
 
 .form {
@@ -262,6 +262,16 @@ footer {
         flex: calc(2832/4256);
     }
 
+}
+
+@media (min-width: 992px) {
+    .contact-form {
+        padding-right: 5rem;
+    }
+    .contact-info {
+        padding-left: 5rem;
+    }
+    
 }
 
 /*----------------------------------------------------------- /Media Queries */
