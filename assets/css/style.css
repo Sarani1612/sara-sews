@@ -135,7 +135,7 @@ body {
 }
 
 .about-divs {
-   margin: 0 0.5rem;
+    margin: 0 0.5rem;
 }
 
 .about-section img {
@@ -147,16 +147,16 @@ body {
 }
 
 .contact-info {
+    padding: 3rem;
     text-align: left;
+}
+
+.contact-form {
+    padding: 3rem;
 }
 
 .form {
     padding: 5px 0;
-     max-width: 90%;
-}
-
-#contact-container{
-    padding: auto 1.75rem;
 }
 
 /*----------------------------------------------------------- /Content */
