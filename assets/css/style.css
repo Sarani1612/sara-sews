@@ -146,6 +146,18 @@ body {
     margin-top: 1rem;
 }
 
+.contact-info {
+    text-align: left;
+}
+
+.form {
+    padding: 5px 0;
+     max-width: 90%;
+}
+
+#contact-container{
+    padding: auto 1.75rem;
+}
 
 /*----------------------------------------------------------- /Content */
 
