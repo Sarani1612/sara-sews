@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f41741c87d.js"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Nimble Thimble|Contact</title>
@@ -52,12 +52,12 @@
                     Drop us a message if you want to hear more or receive a quote.
                 </p>
             </div>
-            <div class="col-12 col-sm-6 contact-info">
+            <div class="col-12 col-sm-6 contact-info" data-aos="fade-left">
                 <p class="body-text">Get in touch:</p>
                 <p class="body-text">The Nimble Thimble<br>Audley Place 6<br>Cork</p>
                 <p class="body-text">0858044522<br>thenimblethimble@gmail.com</p>
             </div>
-            <div class="col-12 col-sm-6 contact-form">
+            <div class="col-12 col-sm-6 contact-form" data-aos="fade-right">
                 <form>
                     <div class="form-row">
                         <div class="col-12 form">
@@ -125,6 +125,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 800,
+            delay: 200,
+            once: false,
+            disable: 'mobile',
+            mirror: true,
+        });
+        window.addEventListener('load', AOS.refresh);
+    </script>
+
 </body>
 
 </html>
