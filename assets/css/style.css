@@ -151,7 +151,7 @@ p {
 }
 
 .contact-divs {
-    padding: 0 3rem;
+
     margin: 0;
 }
 
@@ -265,13 +265,29 @@ footer {
 }
 
 @media (min-width: 992px) {
+
+    .contact-divs {
+        padding: 0 3rem;
+    }
+
     .contact-form {
         padding-right: 5rem;
     }
     .contact-info {
         padding-left: 5rem;
     }
-    
+
+}
+
+@media (min-width: 1200px) {
+
+    .contact-form {
+        padding: 0 6rem;
+    }
+    .contact-info {
+        padding: 0 6rem;
+    }
+
 }
 
 /*----------------------------------------------------------- /Media Queries */
