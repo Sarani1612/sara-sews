@@ -188,7 +188,7 @@ p {
 }
 
 .button-contact {
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 /*----------------------------------------------------------- /Buttons */
@@ -264,7 +264,7 @@ footer {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
 
     .contact-divs {
         padding: 0 3rem;
@@ -290,7 +290,7 @@ footer {
 
 }
 
-@media (min-height: 877px) {
+@media (min-width: 576px ) {
 
     .contact-footer {
         position: fixed;
