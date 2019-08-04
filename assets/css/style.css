@@ -250,16 +250,8 @@ footer {
         vertical-align: middle;
     }
 
-    #photo1 {
-        flex: calc(3123/4684);
-    }
-
-    #photo2 {
+    .photo-front {
         flex: calc(2899/2829);
-    }
-
-    #photo3 {
-        flex: calc(2832/4256);
     }
 
 }
