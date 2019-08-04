@@ -93,6 +93,11 @@ p {
     background-color: #d6c7e4;
 }
 
+.carousel {
+    max-width: 500px;
+    display: inline-block;
+}
+
 .body-text {
     margin-top: 1rem;
     font-size: 1.25rem;
@@ -240,21 +245,6 @@ footer {
 /*----------------------------------------------------------- /Footer */
 
 /*----------------------------------------------------------- Media Queries */
-
-@media (min-width: 768px) {
-    .frontpage-photos {
-        display: flex;
-    }
-
-    .frontpage-photos img {
-        vertical-align: middle;
-    }
-
-    .photo-front {
-        flex: calc(2899/2829);
-    }
-
-}
 
 @media (min-width: 960px) {
 
