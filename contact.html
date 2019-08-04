@@ -45,20 +45,20 @@
     <div class="container-fluid contact-about-body">
         <div class="row contact-divs">
             <div class="col-12">
-                <h1 class="subpage-heading">
+                <h1 class="subpage-heading" data-aos="fade-right">
                     Contact
                 </h1>
-                <p class="body-text">
+                <p class="body-text" data-aos="fade-left">
                     Drop us a message if you want to hear more or receive a quote.
                 </p>
             </div>
-            <div class="col-12 col-sm-6 contact-info" data-aos="fade-left">
+            <div class="col-12 col-sm-6 contact-info" data-aos="zoom-in">
                 <p class="body-text">Get in touch:</p>
                 <p class="body-text"><i class="fas fa-home"></i><br>The Nimble Thimble<br>Audley Place 6<br>Cork</p>
                 <p class="body-text"><i class="fas fa-phone-alt"></i><br>0858044522</p>
                 <p class="body-text"><i class="fas fa-envelope"></i><br>nimblethimble@gmail.com</p>
             </div>
-            <div class="col-12 col-sm-6 contact-form" data-aos="fade-right">
+            <div class="col-12 col-sm-6 contact-form" data-aos="zoom-in">
                 <form>
                     <div class="form-row">
                         <div class="col-12 form">
@@ -130,10 +130,9 @@
     <script>
         AOS.init({
             easing: 'ease-out-back',
-            duration: 800,
+            duration: 1000,
             delay: 200,
             once: false,
-            disable: 'mobile',
             mirror: true,
         });
         window.addEventListener('load', AOS.refresh);

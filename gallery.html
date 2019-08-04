@@ -43,10 +43,10 @@
     <div class="container-fluid gallery-page">
         <div class="row">
             <div class="col-12">
-                <h1 class="subpage-heading">
+                <h1 class="subpage-heading" data-aos="fade-right">
                     Gallery
                 </h1>
-                <p class="body-text">
+                <p class="body-text" data-aos="fade-left">
                     We sew for both individuals and theatres or other groups, and we sew a wide variety of styles;<br>casual shirts, elegant wedding dresses and costumes.<br> Have a look at some of our previous projects and get inspired!
                 </p>
             </div>
@@ -150,10 +150,9 @@
     <script>
         AOS.init({
             easing: 'ease-out-back',
-            duration: 800,
+            duration: 1000,
             delay: 200,
             once: false,
-            disable: 'mobile',
             mirror: true,
         });
         window.addEventListener('load', AOS.refresh);
