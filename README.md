@@ -20,12 +20,14 @@ Use this section to provide insight into your UX process, focusing on who this w
 + as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
 + as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
 + as a potential client, 
-+ 
+
 
 ### Wireframes
-For smartphones:
-For tablets:
-For desktops:
+
+See the wireframes for the website by clicking on the links below. Each file contains the wireframes for the Home, Gallery, Contact and About pages in that order.
+1. [Mobile](/wireframes/desktop/mp1-desktop.jpeg)
+2. [Tablet]()
+3. [Desktop](/wireframes/desktop/mp1-desktop.jpeg)
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
