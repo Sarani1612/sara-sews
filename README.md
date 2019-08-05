@@ -79,9 +79,11 @@ In addition, it would be good if the user was able to click each photo to open a
 ## Technologies used
 I used the following technologies in making my website:
 
-+ JQuery
-
-The project uses JQuery to simplify DOM manipulation.
++ HTML and CSS were used for the overall structure of the website.
++ [Bootstrap](https://getbootstrap.com/): used to help make a visually appealing layout responsive to different screen sizes.
++ [Google Fonts](https://fonts.google.com/): provided the font used throughout the website.
++ [AOS Animate on Scroll](https://michalsnik.github.io/aos/): used to add animations to the sections and photos on the website.
++ JQuery: used for Bootstrap and AOS.
 
 ## Testing
 
@@ -90,7 +92,8 @@ The project uses JQuery to simplify DOM manipulation.
 ## Credits
 
 ### Content
++ The texts used throughout the website were written by Sara Larsen and Robert McGuinness.
 
 ### Media
-
-### Acknowledgments
++ All photos used are free stock photos from [Pexels](https://www.pexels.com/).
++ All the icons on the website are from [Font Awesome](https://fontawesome.com/).
