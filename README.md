@@ -14,9 +14,12 @@ I decided this approach would be best, given that visitors to the website were m
 
 ### User stories
 
++ as a first-time user of the site, I can easily move through the different sections without clicking randomly in vain.
 + as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
 + as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
-+ as a potential client, 
++ as a potential client, I can quickly locate the About page to get an impression of the people I might be doing business with.
++ As a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
++ As a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
 
 
 ### Wireframes
