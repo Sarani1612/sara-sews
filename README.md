@@ -1,18 +1,26 @@
 # The Nimble Thimble
 
-My webpage is for a potential boutique sewing shop that sells custom-made
+My website is for a potential boutique sewing shop that sells custom-made
 clothing and costumes.
+
+[Website](https://sarani1612.github.io/the-nimble-thimble/)
 
 ## UX
 
 This website is for individuals and smaller theatres looking for somewhere to get custom-made clothing and costumes.
-I want it to be clear that we sew all kinds of clothing, and that people are welcome to contact us about any project they might have in mind.
+Since the concept and services provided are fairly simple and easy to grasp, I did not think large amounts of text would be desirable or helpful.
+Instead I wanted a clean, elegant and simple layout with short statements and a few calls to action, and otherwise let the focus be on the photos of some of the business' previous work.
+I decided this approach would be best, given that visitors to the website were more likely to be interested in seeing the business' portfolio rather than spend time reading a lot of text.
+
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### User stories
 
-+ as an individual 
++ as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
++ as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
++ as a potential client, 
++ 
 
 ### Wireframes
 For smartphones:
