@@ -88,6 +88,21 @@ I used the following technologies in making my website:
 ## Testing
 
 ## Deployment
+I set up a new environment in AWS Cloud9 where I did all of the coding for the website.
+I also created a new public repository on GitHub to which I pushed the Cloud9 repository from the command line.\
+To deploy the website I went to the settings tab for the depository on GitHub and set the master branch as the publishing source and a few moments later the website was available on GitHub Pages through the link provided at the top.
+
+### Running the project locally
+Follow these steps if you wish to run the project locally:
+1. go to the repository page on GitHub
+2. click the "clone or download" button on the right-hand side
+3. copy the URL that shows up
+4. in Terminal, change the current working directory to the location where you want the cloned directory to be made
+5. type 'git clone' and paste the URL from step 2
+6. press enter
+7. the local clone will be created
+
+These instructions are taken from [this GitHub help page](https://help.github.com/en/articles/cloning-a-repository)
 
 ## Credits
 
