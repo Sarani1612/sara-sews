@@ -94,7 +94,7 @@ To deploy the website I went to the settings tab for the depository on GitHub an
 
 ### Running the project locally
 Follow these steps if you wish to run the project locally:
-1. go to the repository page on GitHub
+1. go to the [repository page](https://github.com/Sarani1612/the-nimble-thimble) on GitHub
 2. click the "clone or download" button on the right-hand side
 3. copy the URL that shows up
 4. in Terminal, change the current working directory to the location where you want the cloned directory to be made
