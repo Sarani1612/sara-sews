@@ -86,6 +86,19 @@ I used the following technologies in making my website:
 + JQuery: used for Bootstrap and AOS.
 
 ## Testing
+The HTML code for all four pages was put through the [HTML Validator](https://validator.w3.org/) to check for errors.\
+The CSS code was put through the [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors.
+
+### Testing user stories
+1. as a first-time user of the site, I can easily move through the different sections without clicking randomly in vain.
+    - 
+2. as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
+3. as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
+4. as a potential client, I can quickly locate the About page to get an impression of the people I might be doing business with.
+5. As a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
+6. As a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
+
+### Manually testing all content and features across website
 
 ## Deployment
 I set up a new environment in AWS Cloud9 where I did all of the coding for the website.
