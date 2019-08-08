@@ -91,14 +91,37 @@ The CSS code was put through the [CSS Validator](https://jigsaw.w3.org/css-valid
 
 ### Testing user stories
 1. as a first-time user of the site, I can easily move through the different sections without clicking randomly in vain.
-    - 
+    - the navigation bar at the top has clearly labelled links for each sub-page and underneath the carousel there are buttons also clearly labelled
+    for the the Gallery and the Contact pages. The navigation bar always stays within view at the top, so it is easy to get to another section and not necessary to spend a lot of time searching for things.
 2. as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
+    - the home page has a short text stating that the business caters to individuals and groups and does all types of clothing. The Gallery page has a similar paragraph, and in addition, the photos themselves should give the user a good idea if what they are looking for is possible with this business.
 3. as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
+    - the navigation bar has a clearly labelled link for the Gallery and there is a button linking to the Gallery underneath the carousel as well. As the navigation bar always stays within view, it is very easy to quickly get to the Gallery from anywhere on the website.
 4. as a potential client, I can quickly locate the About page to get an impression of the people I might be doing business with.
+    - there is a clerly labelled link to the About page in the navigation bar which always stays within view, so it is very easy to get there from anywhere on the website.
 5. As a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
+    - getting in touch with the business is easy to do as there is a link to the Contact page in the navigation bar which always stays at the top. There is also a contact button located underneath the carousel, one at the bottom of the Gallery page and one underneath the text on the Abut page.
 6. As a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
+    - a user can get to all three social media accounts via the links in the footer on all subpages of the website.
 
-### Manually testing all content and features across website
+### Manually testing all content and features across the website
+First, I opened each subpage on a small, a medium and a large screen and in developer tools to test that the overall look was consistent and as intended.\
+I paid close attention to the following features on all screen sizes:
++ **Navigation bar**
+    + all links in the navigation bar were clicked on each subpage to verify that they worked and went to the right subpage.
+    + I scrolled down on all pages to verify that the navigation bar would stick to the top.
+    + the navigation bar was identical across all subpages.
++ **buttons**
+    + all buttons on all subpages were clicked to ensure that they worked and went to the right subpage.
+    + the styling of the buttons was consistent across all subpages.
++ **Carousel**:
++ **Images**:
++ **Contact form**:
++ **Animations**:
++ **Background photo/colour**:
++ **Text**:
++ **Footer**:
+
 
 ## Deployment
 I set up a new environment in AWS Cloud9 where I did all of the coding for the website.
