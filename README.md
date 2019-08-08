@@ -110,7 +110,8 @@ I paid close attention to the following features on all screen sizes:
 + **Navigation bar**
     + all links in the navigation bar were clicked on each subpage to verify that they worked and went to the right subpage.
     + I scrolled down on all pages to verify that the navigation bar would stick to the top.
-    + the navigation bar was identical across all subpages.
+    + the navigation bar was identical across all subpages and showed the correct styling on all screens.
+    + on small screens the navigation bar collapsed into a button on the right-hand side as intended.
 + **buttons**
     + all buttons on all subpages were clicked to ensure that they worked and went to the right subpage.
     + the styling of the buttons was consistent across all subpages.
@@ -124,11 +125,19 @@ I paid close attention to the following features on all screen sizes:
     + the contact form showed up as intended on all screen sizes.
     + I verified that error messages popped up if the required fields had not been filled out.
 + **Animations**
-    + 
-+ **Background photo/colour**:
-+ **Text**:
-+ **Footer**:
-
+    + all animations (headings and subheadings on all pages, Projects section on frontpage and Gallery photos) work as intended on all screens.
+    + initially, there was a problem with the animations for the gallery photos only firing for the photos at the top. I added the line `window.addEventListener('load', AOS.refresh);` inside the <script> tags and the issue should now be resolved.
++ **Background photo/colour**
+    + I verified that the background photo on the Home, Contact and About pages has the correct size and shows up as intended (regular photo on Home page; faded overlay on Contact and About pages) on all screens.
+    + I also verified that the correct background colour for the Projects section on the Home page and the Gallery page showed on all screens.
++ **Text**
+    + I ensured that the font, size, colour and styling of all text (headings, subheadings, paragraph text) across all subpages looked as intended on all screens.
++ **Icons**
+    + I tested the Contact page in several browsers on all screen sizes to make sure that the icons (address, phone and email) showed and looked as intended.
++ **Footer**
+    + the footer was identical across all pages and showed the correct on all screens.
+    + the social media icons all showed and had the intended hover effect on all pages and all screens.
+    + the social media links were all clicked to ensure that they opened the correct social media page in a new tab.
 
 ## Deployment
 I set up a new environment in AWS Cloud9 where I did all of the coding for the website.
