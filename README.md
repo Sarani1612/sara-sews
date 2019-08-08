@@ -114,10 +114,17 @@ I paid close attention to the following features on all screen sizes:
 + **buttons**
     + all buttons on all subpages were clicked to ensure that they worked and went to the right subpage.
     + the styling of the buttons was consistent across all subpages.
-+ **Carousel**:
-+ **Images**:
-+ **Contact form**:
-+ **Animations**:
++ **Carousel**
+    + the carousel worked as intended on all screen sizes. The photos were the same size and the right size for each screen type, and they circulated automatically. The back and forward arrows and the indicators at the bottom also worked.
++ **Images**
+    + gallery images and the image on the About page all looked as intended and had the right size on all screens.
+    + At first, there was a problem with the images loading very slowly the first time the page was openend. I used [BeFunky](https://www.befunky.com/create/) to resize the images which helped improve the loading time.\
+    However, there is still room for improvement here, but I preferred to keep it as is rather than end up with photos of too low quality. The issue could be resolved with some JavaScript, for example [lazy loading](https://imagekit.io/blog/lazy-loading-images-complete-guide/).
++ **Contact form**
+    + the contact form showed up as intended on all screen sizes.
+    + I verified that error messages popped up if the required fields had not been filled out.
++ **Animations**
+    + 
 + **Background photo/colour**:
 + **Text**:
 + **Footer**:
