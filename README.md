@@ -14,12 +14,12 @@ I decided this approach would be best, given that visitors to the website were m
 
 ### User stories
 
-+ as a first-time user of the site, I can easily move through the different sections without clicking randomly in vain.
++ as a first-time user of the site, I can easily move through the different sections without extraneous clicking.
 + as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
 + as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
 + as a potential client, I can quickly locate the About page to get an impression of the people I might be doing business with.
-+ As a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
-+ As a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
++ as a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
++ as a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
 
 
 ### Wireframes
@@ -72,7 +72,7 @@ The following features are some that could be implemented later on for a better 
 + **Videos**: some catwalk style videos could be added to the Gallery to better show off the business' previous project.\
 Clips from plays that the business has provided costumes for could be useful to potential business clients.
 + **Testimonials**: adding a couple of testimonials from previous and/or current costumers would help the business image and make them appear more trustworthy and competent.
-+ **Detailed About page**: Photos/videos of the sewing studio and the staff along with individual bios for each member of the staff could also help enhance their image and trustworthiness.
++ **Detailed About page**: photos/videos of the sewing studio and the staff along with individual bios for each member of the staff could also help enhance their image and trustworthiness.
 + **Gallery enhancement**: the file-size of the photos has been reduced for faster loading, but there is still some room for improvement here. Good results could likely be achieved with [lazy loading images](https://imagekit.io/blog/lazy-loading-images-complete-guide/).\
 In addition, it would be good if the user was able to click each photo to open a larger version and then be able to click through the photos using back and forward arrows.
 
@@ -90,18 +90,18 @@ The HTML code for all four pages was put through the [HTML Validator](https://va
 The CSS code was put through the [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors.
 
 ### Testing user stories
-1. as a first-time user of the site, I can easily move through the different sections without clicking randomly in vain.
+1. as a first-time user of the site, I can easily move through the different sections without extraneous clicking.
     - the navigation bar at the top has clearly labelled links for each sub-page and underneath the carousel there are buttons also clearly labelled
     for the the Gallery and the Contact pages. The navigation bar always stays within view at the top, so it is easy to get to another section and not necessary to spend a lot of time searching for things.
 2. as an individual interested in having a special item of clothing (wedding dress, gifts, cosplay costumes) custom-made, I can easily determine whether this business caters to me and my needs.
-    - the home page has a short text stating that the business caters to individuals and groups and does all types of clothing. The Gallery page has a similar paragraph, and in addition, the photos themselves should give the user a good idea if what they are looking for is possible with this business.
+    - the home page has a short text stating that the business caters to individuals and groups as well as makes all types of clothing. The Gallery page has a similar paragraph, and in addition, the photos themselves should give the user a good idea if what they are looking for is possible with this business.
 3. as a potential professional client without much time to do thorough research, I can quickly look through the business portfolio to get an idea whether they are able to deliver what I need.
     - the navigation bar has a clearly labelled link for the Gallery and there is a button linking to the Gallery underneath the carousel as well. As the navigation bar always stays within view, it is very easy to quickly get to the Gallery from anywhere on the website.
 4. as a potential client, I can quickly locate the About page to get an impression of the people I might be doing business with.
-    - there is a clerly labelled link to the About page in the navigation bar which always stays within view, so it is very easy to get there from anywhere on the website.
-5. As a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
+    - there is a clearly labelled link to the About page in the navigation bar which always stays within view, so it is very easy to get there from anywhere on the website.
+5. as a potential client, I can quickly get in touch with the business for enquiries or to request a quote.
     - getting in touch with the business is easy to do as there is a link to the Contact page in the navigation bar which always stays at the top. There is also a contact button located underneath the carousel, one at the bottom of the Gallery page and one underneath the text on the Abut page.
-6. As a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
+6. as a potential client, I have easy access to the business' social media accounts where I can most likely get more information and see more photos.
     - a user can get to all three social media accounts via the links in the footer on all subpages of the website.
 
 ### Manually testing all content and features across the website
@@ -119,7 +119,7 @@ I paid close attention to the following features on all screen sizes:
     + the carousel worked as intended on all screen sizes. The photos were the same size and the right size for each screen type, and they circulated automatically. The back and forward arrows and the indicators at the bottom also worked.
 + **Images**
     + gallery images and the image on the About page all looked as intended and had the right size on all screens.
-    + At first, there was a problem with the images loading very slowly the first time the page was openend. I used [BeFunky](https://www.befunky.com/create/) to resize the images which helped improve the loading time.\
+    + at first, there was a problem with the images loading very slowly the first time the page was openend. I used [BeFunky](https://www.befunky.com/create/) to resize the images which helped improve the loading time.\
     However, there is still room for improvement here, but I preferred to keep it as is rather than end up with photos of too low quality. The issue could be resolved with some JavaScript, for example [lazy loading](https://imagekit.io/blog/lazy-loading-images-complete-guide/).
 + **Contact form**
     + the contact form showed up as intended on all screen sizes.
@@ -162,5 +162,5 @@ These instructions are taken from [this GitHub help page](https://help.github.co
 + The texts used throughout the website were written by Sara Larsen and Robert McGuinness.
 
 ### Media
-+ All photos used are free stock photos from [Pexels](https://www.pexels.com/).
-+ All the icons on the website are from [Font Awesome](https://fontawesome.com/).
++ all photos used are free stock photos from [Pexels](https://www.pexels.com/).
++ all the icons on the website are from [Font Awesome](https://fontawesome.com/).
