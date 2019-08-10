@@ -89,6 +89,9 @@ I used the following technologies in making my website:
 The HTML code for all four pages was put through the [HTML Validator](https://validator.w3.org/) to check for errors.\
 The CSS code was put through the [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors.
 
+The following has all been tested on a small screen (iPhone 7) and a large screen (Macbook Pro 13 inch). As I did not have access to a tablet, I used developer tools in Chrome to test on a medium-sized screen.\
+Overall, I made extensive use of developer tools to test the website on various screen sizes.
+
 ### Testing user stories
 1. as a first-time user of the site, I can easily move through the different sections without extraneous clicking.
     - the navigation bar at the top has clearly labelled links for each sub-page and underneath the carousel there are buttons also clearly labelled
