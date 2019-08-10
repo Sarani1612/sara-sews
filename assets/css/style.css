@@ -67,6 +67,7 @@ p {
     margin: 0;
     padding: 1px;
     color: #fff;
+    text-shadow: 2px 2px 3px #000;
     overflow: auto;
 }
 
@@ -111,7 +112,7 @@ p {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(250, 245, 255, 0.75);
 }
 
 .gallery-page {
@@ -124,6 +125,7 @@ p {
     font-size: 3.5rem;
     font-weight: 700;
     color: #6e2b8c;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .gallery {
@@ -271,7 +273,7 @@ footer {
 
 }
 
-@media (min-width: 576px ) {
+@media (min-width: 576px) {
 
     .contact-footer {
         position: fixed;
