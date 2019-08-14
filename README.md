@@ -50,7 +50,7 @@ Underneath the photos there is a call-to-action button linking to the contact pa
 
 ### Contact
 The contact page consists of a background photo (the same as on the home page) and two main sections. The first section contains address, phone number and email address for the business. in order for it to be more visually pleasing, there are icons depicting the contact info type.\
-The section section is a contact form the user can use to get in touch. There are input fields for name, phone number, email and message and these are followed by a submit button.\
+The section section is a contact form the user can use to get in touch. There are input fields for name, phone number, email and message and these are followed by a submit button.
 
 ### About
 
