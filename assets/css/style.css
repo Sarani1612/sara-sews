@@ -7,7 +7,7 @@ p {
     text-shadow: 1px 1px;
 }
 
-/*----------------------------------------------------------- Navbar */
+/* Navbar */
 
 .navbar {
     width: 100%;
@@ -29,11 +29,18 @@ p {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -o-transition-property: transform;
     transition-property: transform;
 }
 
@@ -41,6 +48,9 @@ p {
 .hvr-shrink:focus,
 .hvr-shrink:active {
     -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
     transform: scale(0.9);
 }
 
@@ -49,9 +59,9 @@ p {
     font-weight: 600;
 }
 
-/*----------------------------------------------------------- /Navbar */
+/* /Navbar */
 
-/*----------------------------------------------------------- Content */
+/* Content */
 
 .home-welcome,
 .contact-about-body {
@@ -169,9 +179,9 @@ p {
     padding: 5px 0;
 }
 
-/*----------------------------------------------------------- /Content */
+/* /Content */
 
-/*----------------------------------------------------------- Buttons */
+/* Buttons */
 
 .button {
     padding-bottom: 15px;
@@ -197,9 +207,9 @@ p {
     margin: 15px 0;
 }
 
-/*----------------------------------------------------------- /Buttons */
+/* /Buttons */
 
-/*----------------------------------------------------------- Footer */
+/* Footer */
 
 footer {
     background-color: #6e2b8c;
@@ -228,9 +238,14 @@ footer {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
     transition-duration: 1s;
 }
 
@@ -238,14 +253,19 @@ footer {
 .hvr-bounce-in:focus,
 .hvr-bounce-in:active {
     -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -moz-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
-/*----------------------------------------------------------- /Footer */
+/* /Footer */
 
-/*----------------------------------------------------------- Media Queries */
+/* Media Queries */
 
 @media (min-width: 960px) {
 
@@ -284,4 +304,4 @@ footer {
     }
 }
 
-/*----------------------------------------------------------- /Media Queries */
+/* /Media Queries */
