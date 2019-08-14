@@ -29,7 +29,10 @@ See the wireframes for the website by clicking on the links below. Each file con
 2. [Tablet](/wireframes/tablet/mp1-tablet.jpg)
 3. [Desktop](/wireframes/desktop/mp1-desktop.jpeg)
 
+These wireframes were made using [Balsamiq](https://balsamiq.com/).
+
 ## Features
+
 The website consists of four pages: Home, Gallery, Contact and About.\
 All four pages share the same navigation bar at the top of the page with the name of the business in the left-hand side and links to each page.
 They also have the same footer with copyright info and links to three social media pages (Instagram, Facebook and Pinterest).
@@ -41,6 +44,7 @@ The user can scroll down to the second section which consists of a short paragra
 There are also two calls-to-action; one in the form of a button that will take the user to the Gallery page and another one that will take the user to the Contact page.
 
 ### Gallery
+
 The focus of this page are the photos showing off some of the business' previous work. As such, there is only a short text at the top encouraging the user to let their imagination wander while looking through the gallery.\
 Underneath the photos there is a call-to-action button linking to the contact page.
 
@@ -49,11 +53,13 @@ The contact page consists of a background photo (the same as on the home page) a
 The section section is a contact form the user can use to get in touch. There are input fields for name, phone number, email and message and these are followed by a submit button.\
 
 ### About
+
 The about page is very similar to the contact page in that it features the same background image and two main sections. Here the first section contains a photo of the founder of the business in her sewing studio while the second section
 is a text about her and her business. This is the only place where a longer block of text is featured. This was deemed necessary in order to be able to give the user a better impression of the business and the people behind it.\
 People are more likely to do business with someone they know a bit more about.
 
 ### Existing features
+
 + **Colour scheme**: a colour scheme has been chosen to tie all the sub-pages and content together. Thus, the navigation bar and footer always have the same dark purple colour while text and icons are held in white.\
 For consistency, the buttons are held in the same colours; dark purple bakcground with white text.\
 For sections without a background image, i.e. the *Projects* section on the *home* page and the *gallery*, a lighter purple has been chosen as the background colour as the dark purple would have taken too much attention away from the content.\
@@ -68,6 +74,7 @@ In addition, immediately after the carousel on the *home* page there is a button
 On the other hand, the *contact* page only contains one call-to-action button, i.e. the button for submitting the contact form. Placing links here would be risky given that they could potentially lure the user away from making contact with the business.
 
 ### Features left to implement
+
 The following features are some that could be implemented later on for a better user experience:
 + **Videos**: some catwalk style videos could be added to the Gallery to better show off the business' previous project.\
 Clips from plays that the business has provided costumes for could be useful to potential business clients.
@@ -77,6 +84,7 @@ Clips from plays that the business has provided costumes for could be useful to 
 In addition, it would be good if the user was able to click each photo to open a larger version and then be able to click through the photos using back and forward arrows.
 
 ## Technologies used
+
 I used the following technologies in making my website:
 
 + HTML and CSS were used for the overall structure of the website.
@@ -86,6 +94,7 @@ I used the following technologies in making my website:
 + JQuery: used for Bootstrap and AOS.
 
 ## Testing
+
 The HTML code for all four pages was put through the [HTML Validator](https://validator.w3.org/) to check for errors.\
 The CSS code was put through the [CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors.
 
@@ -93,6 +102,7 @@ The following has all been tested on a small screen (iPhone 7) and a large scree
 Overall, I made extensive use of developer tools to test the website on various screen sizes.
 
 ### Testing user stories
+
 1. as a first-time user of the site, I can easily move through the different sections without extraneous clicking.
     - the navigation bar at the top has clearly labelled links for each sub-page and underneath the carousel there are buttons also clearly labelled
     for the the Gallery and the Contact pages. The navigation bar always stays within view at the top, so it is easy to get to another section and not necessary to spend a lot of time searching for things.
@@ -108,6 +118,7 @@ Overall, I made extensive use of developer tools to test the website on various 
     - a user can get to all three social media accounts via the links in the footer on all subpages of the website.
 
 ### Manually testing all content and features across the website
+
 First, I opened each subpage on a small, a medium and a large screen and in developer tools to test that the overall look was consistent and as intended.\
 I paid close attention to the following features on all screen sizes:
 + **Navigation bar**
@@ -143,11 +154,13 @@ I paid close attention to the following features on all screen sizes:
     + the social media links were all clicked to ensure that they opened the correct social media page in a new tab.
 
 ## Deployment
+
 I set up a new environment in AWS Cloud9 where I did all of the coding for the website.
 I also created a new public repository on GitHub to which I pushed the Cloud9 repository from the command line.\
 To deploy the website I went to the settings tab for the depository on GitHub and set the master branch as the publishing source and a few moments later the website was available on GitHub Pages through the link provided at the top.
 
 ### Running the project locally
+
 Follow these steps if you wish to run the project locally:
 1. go to the [repository page](https://github.com/Sarani1612/the-nimble-thimble) on GitHub
 2. click the "clone or download" button on the right-hand side
@@ -162,8 +175,10 @@ These instructions are taken from [this GitHub help page](https://help.github.co
 ## Credits
 
 ### Content
+
 + The texts used throughout the website were written by Sara Larsen and Robert McGuinness.
 
 ### Media
+
 + all photos used are free stock photos from [Pexels](https://www.pexels.com/).
 + all the icons on the website are from [Font Awesome](https://fontawesome.com/).
